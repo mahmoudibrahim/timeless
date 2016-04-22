@@ -18,7 +18,7 @@ To follow this example, run the 4 scripts in the following order:
 4- plotValues.r -- This will produce one file: vals-11.pdf. This is an R script
 
 
-"classes-11.txt" contains the cluster assignments for the regions found in "allCountsNorm.txt". "vals-11.pdf" shows plots of the average values for regions in each cluster. Note that since the input file is a very small example set with only about 100 regions, the output you might get from running it through this pipeline will not be sensible.
+"classes-11.txt" contains the cluster assignments for the regions found in "allCountsNorm.txt". "vals-11.pdf" shows plots of the average values for regions in each cluster. Note that since the input file is a very small example set with only about 100 regions, the output you might get from running it through this pipeline will not be sensible. This example is set for 11 clusters, feel free to adjust the number of clusters. There is a variable defined in the beginning of each script for the cluster numbers that you change.
 
 
 To run those scripts, you need the BNT Matlab toolbox (note that you need to adjust the path to it in the two Matlab scripts). You also need the R packages "limma" and "psych" (for plotting).
